@@ -8,8 +8,8 @@ function Home() {
                 <p className='text-md sm:text-2xl'>Connect with people who listen like you</p>
                 <Link to="/edit-profile" className='my-4 text-center bg-button-green hover:bg-button-green-dark font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-2xl sm:rounded-3xl border-4 border-black'>LOGIN WITH SPOTIFY</Link>
             </div>
-            <img src=".\src\assets\linesphere_main.jpg" alt="people listening music" className='object-cover min-h-[50vh] hidden sm:block' />
-            <img src=".\src\assets\linesphere_mobile.jpg" alt="people listening music" className='object-cover min-h-[50vh] sm:hidden' />
+            <img src=".\assets\linesphere_main.jpg" alt="people listening music" className='object-cover min-h-[50vh] hidden sm:block' />
+            <img src=".\assets\linesphere_mobile.jpg" alt="people listening music" className='object-cover min-h-[50vh] sm:hidden' />
         </div>
     )
 }

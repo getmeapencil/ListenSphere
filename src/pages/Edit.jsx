@@ -32,7 +32,7 @@ function Form() {
   }
   return (
     <form onSubmit={handleSubmit} className="translate-y-16 flex flex-col items-center w-[90vw] sm:max-w-xl border-4 border-black px-4 pt-4 pb-2 rounded-2xl bg-gradient-to-r from-card-grad-l to-card-grad-r "> 
-      <img alt="Remy Sharp" src="/src/assets/avatar (1).png" className='absolute -translate-y-20 mt-2 w-28 h-28 border-4 border-black rounded-full'/>
+      <img alt="profile pic" src="./assets/avatar (1).png" className='absolute -translate-y-20 mt-2 w-28 h-28 border-4 border-black rounded-full'/>
       <div className='w-full flex flex-col items-center mt-14'>
         <FormInput label="Your Name" type="text" name="username" inputs={inputs} handleChange={handleChange}/>
         <FormInput label="Instagram" type="text" name="instagram" inputs={inputs} handleChange={handleChange}/>

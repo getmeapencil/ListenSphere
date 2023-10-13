@@ -63,7 +63,7 @@ function ProfileCard({tab="userProfile"}) {
   return (
     <div className={`flex flex-wrap justify-center gap-2 p-2 w-[90vw] sm:max-w-[38rem] mb-6 ${cardPb} ${cardBg} border-4 border-black rounded-xl relative`}>
         <div className="flex justify-center items-center w-full sm:w-fit">
-            <img alt="Remy Sharp" src="/src/assets/avatar (1).png" className='w-28 h-28 border-4 border-black rounded-full'/>
+            <img alt="profile pic" src="./assets/avatar (1).png" className='w-28 h-28 border-4 border-black rounded-full'/>
         </div>
         <div className="flex flex-col flex-grow items-center sm:items-start gap-2">
             <h1 className='font-bold'>Tom Holland | 72%</h1>

@@ -4,7 +4,7 @@ function SongCard({index=1, song="Look Who's Inside Again", artists="Bo Burnham,
             <p className="text-center w-10 font-bold">
                 {index}
             </p>
-            <img src="/src/assets/cover1.jpg" alt="Inside Cover" className="w-16 h-16 md:w-24 md:h-24 object-cover"/>
+            <img src="./assets/cover1.jpg" alt="Inside Cover" className="w-16 h-16 md:w-24 md:h-24 object-cover"/>
             <div className="flex flex-col m-2 md:m-4 gap-1 md:gap-3 truncate">
                 <p className="font-bold truncate">{song}</p>
                 <p className="text-sm truncate">{artists}</p>
