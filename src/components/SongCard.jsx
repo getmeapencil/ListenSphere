@@ -1,4 +1,4 @@
-function SongCard({index=1, song="Look Who's Inside Again", artists="Bo Burnham, Bo Burnham, Bo Burnham, Bo Burnham, Bo Burnham, "}) {
+function SongCard({index=1, song="Welcome to The Internet", artists="Bo Burnham"}) {
     return (
         <div className="flex items-center max-w-[95vw] my-4 bg-card-grey border-4 border-black rounded-lg">
             <p className="text-center w-10 font-bold">
